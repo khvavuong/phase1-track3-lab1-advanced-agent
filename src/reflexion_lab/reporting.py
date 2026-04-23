@@ -18,9 +18,13 @@ def summarize(records: list[RunRecord]) -> dict:
 
 def failure_breakdown(records: list[RunRecord]) -> dict:
     grouped: dict[str, Counter] = defaultdict(Counter)
+    overall = Counter()
     for record in records:
         grouped[record.agent_type][record.failure_mode] += 1
-    return {agent: dict(counter) for agent, counter in grouped.items()}
+        overall[record.failure_mode] += 1
+    result = {agent: dict(counter) for agent, counter in grouped.items()}
+    result["overall"] = dict(overall)
+    return result
 
 def build_report(
     records: list[RunRecord],
