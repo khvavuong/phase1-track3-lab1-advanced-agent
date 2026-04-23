@@ -1,0 +1,150 @@
+[
+  {
+    "qid": "hp_hard_1",
+    "difficulty": "hard",
+    "question": "The director of the film that stars the actor who played Jack Dawson in Titanic was born in which country?",
+    "gold_answer": "Canada",
+    "context": [
+      {
+        "title": "Titanic",
+        "text": "Titanic is a film starring Leonardo DiCaprio as Jack Dawson."
+      },
+      {
+        "title": "Leonardo DiCaprio",
+        "text": "Leonardo DiCaprio starred in Inception, a film directed by Christopher Nolan."
+      },
+      {
+        "title": "Inception",
+        "text": "Inception is a science fiction film directed by Christopher Nolan."
+      },
+      {
+        "title": "Christopher Nolan",
+        "text": "Christopher Nolan was born in London, but he holds British and American citizenship; however, he was raised partly in the United Kingdom. (Trick context: incorrect path)"
+      },
+      {
+        "title": "James Cameron",
+        "text": "James Cameron directed Titanic and was born in Kapuskasing, Ontario, Canada."
+      }
+    ]
+  },
+  {
+    "qid": "hp_hard_2",
+    "difficulty": "hard",
+    "question": "The author of the book that inspired the movie directed by Peter Jackson where Frodo appears was born in which country?",
+    "gold_answer": "South Africa",
+    "context": [
+      {
+        "title": "Frodo Baggins",
+        "text": "Frodo Baggins is a character in The Lord of the Rings film series directed by Peter Jackson."
+      },
+      {
+        "title": "The Lord of the Rings",
+        "text": "The Lord of the Rings films are based on the book written by J. R. R. Tolkien."
+      },
+      {
+        "title": "J. R. R. Tolkien",
+        "text": "J. R. R. Tolkien was born in Bloemfontein, South Africa."
+      },
+      {
+        "title": "Peter Jackson",
+        "text": "Peter Jackson is a New Zealand film director."
+      }
+    ]
+  },
+  {
+    "qid": "hp_hard_3",
+    "difficulty": "hard",
+    "question": "The author of the novel adapted into the film starring the actor who played Neo in The Matrix was born in which century?",
+    "gold_answer": "19th century",
+    "context": [
+      {
+        "title": "The Matrix",
+        "text": "Neo in The Matrix was played by Keanu Reeves."
+      },
+      {
+        "title": "Keanu Reeves",
+        "text": "Keanu Reeves starred in Bram Stoker's Dracula."
+      },
+      {
+        "title": "Bram Stoker's Dracula",
+        "text": "The film is based on the novel Dracula by Bram Stoker."
+      },
+      {
+        "title": "Bram Stoker",
+        "text": "Bram Stoker was born in 1847."
+      },
+      {
+        "title": "Dracula adaptations",
+        "text": "Many films are based on Dracula, including versions not starring Keanu Reeves. (Distractor)"
+      }
+    ]
+  },
+  {
+    "qid": "hp_hard_4",
+    "difficulty": "hard",
+    "question": "The university attended by the founder of the company that created the iPhone is located in which state?",
+    "gold_answer": "California",
+    "context": [
+      {
+        "title": "iPhone",
+        "text": "The iPhone was created by Apple Inc."
+      },
+      {
+        "title": "Apple Inc.",
+        "text": "Apple Inc. was co-founded by Steve Jobs."
+      },
+      {
+        "title": "Steve Jobs",
+        "text": "Steve Jobs briefly attended Reed College."
+      },
+      {
+        "title": "Reed College",
+        "text": "Reed College is located in Portland, Oregon."
+      },
+      {
+        "title": "Apple founder",
+        "text": "Steve Wozniak also co-founded Apple but attended UC Berkeley. (Distractor path)"
+      },
+      {
+        "title": "UC Berkeley",
+        "text": "UC Berkeley is located in California."
+      }
+    ]
+  },
+  {
+    "qid": "hp_hard_5",
+    "difficulty": "hard",
+    "question": "The country where the inventor of the telephone was born has a capital city named after which saint?",
+    "gold_answer": "Saint Andrew",
+    "context": [
+      {
+        "title": "Telephone",
+        "text": "The telephone was invented by Alexander Graham Bell."
+      },
+      {
+        "title": "Alexander Graham Bell",
+        "text": "Alexander Graham Bell was born in Scotland."
+      },
+      {
+        "title": "Scotland",
+        "text": "Scotland is part of the United Kingdom."
+      },
+      {
+        "title": "United Kingdom",
+        "text": "The capital of the United Kingdom is London, but Scotland's capital is Edinburgh."
+      },
+      {
+        "title": "Edinburgh",
+        "text": "Edinburgh is named after Edwin of Northumbria, not a saint. However, Scotland's patron saint is Saint Andrew."
+      },
+      {
+        "title": "Saint Andrew",
+        "text": "Saint Andrew is the patron saint of Scotland."
+      },
+      {
+        "title": "Alexander Bell (inventor)",
+        "text": "Another figure named Alexander Bell was an engineer unrelated to the telephone. (Distractor)"
+      }
+    ]
+  }
+]
