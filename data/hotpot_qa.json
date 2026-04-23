@@ -1,0 +1,1602 @@
+[
+  {
+    "qid": "hp1",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Marie Curie was born?",
+    "gold_answer": "Vistula",
+    "context": [
+      {
+        "title": "Marie Curie",
+        "text": "Marie Curie was born in Warsaw."
+      },
+      {
+        "title": "Warsaw",
+        "text": "Warsaw is crossed by the Vistula river."
+      }
+    ]
+  },
+  {
+    "qid": "hp2",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of Italy?",
+    "gold_answer": "Tiber",
+    "context": [
+      {
+        "title": "Italy",
+        "text": "The capital of Italy is Rome."
+      },
+      {
+        "title": "Rome",
+        "text": "Rome is located on the Tiber river."
+      }
+    ]
+  },
+  {
+    "qid": "hp3",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Berlin?",
+    "gold_answer": "Spree",
+    "context": [
+      {
+        "title": "Berlin",
+        "text": "Berlin is the capital city of Germany."
+      },
+      {
+        "title": "Germany",
+        "text": "The capital Berlin lies on the Spree river."
+      }
+    ]
+  },
+  {
+    "qid": "hp4",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Isaac Newton was born?",
+    "gold_answer": "Witham",
+    "context": [
+      {
+        "title": "Isaac Newton",
+        "text": "Isaac Newton was born in Woolsthorpe."
+      },
+      {
+        "title": "Woolsthorpe",
+        "text": "Woolsthorpe is crossed by the Witham river."
+      }
+    ]
+  },
+  {
+    "qid": "hp5",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of UK?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "UK",
+        "text": "The capital of UK is London."
+      },
+      {
+        "title": "London",
+        "text": "London is located on the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp6",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is London?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "London",
+        "text": "London is the capital city of UK."
+      },
+      {
+        "title": "UK",
+        "text": "The capital London lies on the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp7",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Marie Curie was born?",
+    "gold_answer": "Vistula",
+    "context": [
+      {
+        "title": "Marie Curie",
+        "text": "Marie Curie was born in Warsaw."
+      },
+      {
+        "title": "Warsaw",
+        "text": "Warsaw is crossed by the Vistula river."
+      }
+    ]
+  },
+  {
+    "qid": "hp8",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of France?",
+    "gold_answer": "Seine",
+    "context": [
+      {
+        "title": "France",
+        "text": "The capital of France is Paris."
+      },
+      {
+        "title": "Paris",
+        "text": "Paris is located on the Seine river."
+      }
+    ]
+  },
+  {
+    "qid": "hp9",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Berlin?",
+    "gold_answer": "Spree",
+    "context": [
+      {
+        "title": "Berlin",
+        "text": "Berlin is the capital city of Germany."
+      },
+      {
+        "title": "Germany",
+        "text": "The capital Berlin lies on the Spree river."
+      }
+    ]
+  },
+  {
+    "qid": "hp10",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Marie Curie was born?",
+    "gold_answer": "Vistula",
+    "context": [
+      {
+        "title": "Marie Curie",
+        "text": "Marie Curie was born in Warsaw."
+      },
+      {
+        "title": "Warsaw",
+        "text": "Warsaw is crossed by the Vistula river."
+      }
+    ]
+  },
+  {
+    "qid": "hp11",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of UK?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "UK",
+        "text": "The capital of UK is London."
+      },
+      {
+        "title": "London",
+        "text": "London is located on the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp12",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Paris?",
+    "gold_answer": "Seine",
+    "context": [
+      {
+        "title": "Paris",
+        "text": "Paris is the capital city of France."
+      },
+      {
+        "title": "France",
+        "text": "The capital Paris lies on the Seine river."
+      }
+    ]
+  },
+  {
+    "qid": "hp13",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Nikola Tesla was born?",
+    "gold_answer": "Lika",
+    "context": [
+      {
+        "title": "Nikola Tesla",
+        "text": "Nikola Tesla was born in Smiljan."
+      },
+      {
+        "title": "Smiljan",
+        "text": "Smiljan is crossed by the Lika river."
+      }
+    ]
+  },
+  {
+    "qid": "hp14",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of France?",
+    "gold_answer": "Seine",
+    "context": [
+      {
+        "title": "France",
+        "text": "The capital of France is Paris."
+      },
+      {
+        "title": "Paris",
+        "text": "Paris is located on the Seine river."
+      }
+    ]
+  },
+  {
+    "qid": "hp15",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is London?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "London",
+        "text": "London is the capital city of UK."
+      },
+      {
+        "title": "UK",
+        "text": "The capital London lies on the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp16",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Albert Einstein was born?",
+    "gold_answer": "Danube",
+    "context": [
+      {
+        "title": "Albert Einstein",
+        "text": "Albert Einstein was born in Ulm."
+      },
+      {
+        "title": "Ulm",
+        "text": "Ulm is crossed by the Danube river."
+      }
+    ]
+  },
+  {
+    "qid": "hp17",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of France?",
+    "gold_answer": "Seine",
+    "context": [
+      {
+        "title": "France",
+        "text": "The capital of France is Paris."
+      },
+      {
+        "title": "Paris",
+        "text": "Paris is located on the Seine river."
+      }
+    ]
+  },
+  {
+    "qid": "hp18",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Paris?",
+    "gold_answer": "Seine",
+    "context": [
+      {
+        "title": "Paris",
+        "text": "Paris is the capital city of France."
+      },
+      {
+        "title": "France",
+        "text": "The capital Paris lies on the Seine river."
+      }
+    ]
+  },
+  {
+    "qid": "hp19",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Ada Lovelace was born?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "Ada Lovelace",
+        "text": "Ada Lovelace was born in London."
+      },
+      {
+        "title": "London",
+        "text": "London is crossed by the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp20",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of Spain?",
+    "gold_answer": "Manzanares",
+    "context": [
+      {
+        "title": "Spain",
+        "text": "The capital of Spain is Madrid."
+      },
+      {
+        "title": "Madrid",
+        "text": "Madrid is located on the Manzanares river."
+      }
+    ]
+  },
+  {
+    "qid": "hp21",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Madrid?",
+    "gold_answer": "Manzanares",
+    "context": [
+      {
+        "title": "Madrid",
+        "text": "Madrid is the capital city of Spain."
+      },
+      {
+        "title": "Spain",
+        "text": "The capital Madrid lies on the Manzanares river."
+      }
+    ]
+  },
+  {
+    "qid": "hp22",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Isaac Newton was born?",
+    "gold_answer": "Witham",
+    "context": [
+      {
+        "title": "Isaac Newton",
+        "text": "Isaac Newton was born in Woolsthorpe."
+      },
+      {
+        "title": "Woolsthorpe",
+        "text": "Woolsthorpe is crossed by the Witham river."
+      }
+    ]
+  },
+  {
+    "qid": "hp23",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of UK?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "UK",
+        "text": "The capital of UK is London."
+      },
+      {
+        "title": "London",
+        "text": "London is located on the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp24",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Madrid?",
+    "gold_answer": "Manzanares",
+    "context": [
+      {
+        "title": "Madrid",
+        "text": "Madrid is the capital city of Spain."
+      },
+      {
+        "title": "Spain",
+        "text": "The capital Madrid lies on the Manzanares river."
+      }
+    ]
+  },
+  {
+    "qid": "hp25",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Ada Lovelace was born?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "Ada Lovelace",
+        "text": "Ada Lovelace was born in London."
+      },
+      {
+        "title": "London",
+        "text": "London is crossed by the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp26",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of Germany?",
+    "gold_answer": "Spree",
+    "context": [
+      {
+        "title": "Germany",
+        "text": "The capital of Germany is Berlin."
+      },
+      {
+        "title": "Berlin",
+        "text": "Berlin is located on the Spree river."
+      }
+    ]
+  },
+  {
+    "qid": "hp27",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Rome?",
+    "gold_answer": "Tiber",
+    "context": [
+      {
+        "title": "Rome",
+        "text": "Rome is the capital city of Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "The capital Rome lies on the Tiber river."
+      }
+    ]
+  },
+  {
+    "qid": "hp28",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Isaac Newton was born?",
+    "gold_answer": "Witham",
+    "context": [
+      {
+        "title": "Isaac Newton",
+        "text": "Isaac Newton was born in Woolsthorpe."
+      },
+      {
+        "title": "Woolsthorpe",
+        "text": "Woolsthorpe is crossed by the Witham river."
+      }
+    ]
+  },
+  {
+    "qid": "hp29",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of UK?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "UK",
+        "text": "The capital of UK is London."
+      },
+      {
+        "title": "London",
+        "text": "London is located on the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp30",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Rome?",
+    "gold_answer": "Tiber",
+    "context": [
+      {
+        "title": "Rome",
+        "text": "Rome is the capital city of Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "The capital Rome lies on the Tiber river."
+      }
+    ]
+  },
+  {
+    "qid": "hp31",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Nikola Tesla was born?",
+    "gold_answer": "Lika",
+    "context": [
+      {
+        "title": "Nikola Tesla",
+        "text": "Nikola Tesla was born in Smiljan."
+      },
+      {
+        "title": "Smiljan",
+        "text": "Smiljan is crossed by the Lika river."
+      }
+    ]
+  },
+  {
+    "qid": "hp32",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of Germany?",
+    "gold_answer": "Spree",
+    "context": [
+      {
+        "title": "Germany",
+        "text": "The capital of Germany is Berlin."
+      },
+      {
+        "title": "Berlin",
+        "text": "Berlin is located on the Spree river."
+      }
+    ]
+  },
+  {
+    "qid": "hp33",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Madrid?",
+    "gold_answer": "Manzanares",
+    "context": [
+      {
+        "title": "Madrid",
+        "text": "Madrid is the capital city of Spain."
+      },
+      {
+        "title": "Spain",
+        "text": "The capital Madrid lies on the Manzanares river."
+      }
+    ]
+  },
+  {
+    "qid": "hp34",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Albert Einstein was born?",
+    "gold_answer": "Danube",
+    "context": [
+      {
+        "title": "Albert Einstein",
+        "text": "Albert Einstein was born in Ulm."
+      },
+      {
+        "title": "Ulm",
+        "text": "Ulm is crossed by the Danube river."
+      }
+    ]
+  },
+  {
+    "qid": "hp35",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of France?",
+    "gold_answer": "Seine",
+    "context": [
+      {
+        "title": "France",
+        "text": "The capital of France is Paris."
+      },
+      {
+        "title": "Paris",
+        "text": "Paris is located on the Seine river."
+      }
+    ]
+  },
+  {
+    "qid": "hp36",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Rome?",
+    "gold_answer": "Tiber",
+    "context": [
+      {
+        "title": "Rome",
+        "text": "Rome is the capital city of Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "The capital Rome lies on the Tiber river."
+      }
+    ]
+  },
+  {
+    "qid": "hp37",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Isaac Newton was born?",
+    "gold_answer": "Witham",
+    "context": [
+      {
+        "title": "Isaac Newton",
+        "text": "Isaac Newton was born in Woolsthorpe."
+      },
+      {
+        "title": "Woolsthorpe",
+        "text": "Woolsthorpe is crossed by the Witham river."
+      }
+    ]
+  },
+  {
+    "qid": "hp38",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of Germany?",
+    "gold_answer": "Spree",
+    "context": [
+      {
+        "title": "Germany",
+        "text": "The capital of Germany is Berlin."
+      },
+      {
+        "title": "Berlin",
+        "text": "Berlin is located on the Spree river."
+      }
+    ]
+  },
+  {
+    "qid": "hp39",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is London?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "London",
+        "text": "London is the capital city of UK."
+      },
+      {
+        "title": "UK",
+        "text": "The capital London lies on the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp40",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Nikola Tesla was born?",
+    "gold_answer": "Lika",
+    "context": [
+      {
+        "title": "Nikola Tesla",
+        "text": "Nikola Tesla was born in Smiljan."
+      },
+      {
+        "title": "Smiljan",
+        "text": "Smiljan is crossed by the Lika river."
+      }
+    ]
+  },
+  {
+    "qid": "hp41",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of Spain?",
+    "gold_answer": "Manzanares",
+    "context": [
+      {
+        "title": "Spain",
+        "text": "The capital of Spain is Madrid."
+      },
+      {
+        "title": "Madrid",
+        "text": "Madrid is located on the Manzanares river."
+      }
+    ]
+  },
+  {
+    "qid": "hp42",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is London?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "London",
+        "text": "London is the capital city of UK."
+      },
+      {
+        "title": "UK",
+        "text": "The capital London lies on the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp43",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Isaac Newton was born?",
+    "gold_answer": "Witham",
+    "context": [
+      {
+        "title": "Isaac Newton",
+        "text": "Isaac Newton was born in Woolsthorpe."
+      },
+      {
+        "title": "Woolsthorpe",
+        "text": "Woolsthorpe is crossed by the Witham river."
+      }
+    ]
+  },
+  {
+    "qid": "hp44",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of Germany?",
+    "gold_answer": "Spree",
+    "context": [
+      {
+        "title": "Germany",
+        "text": "The capital of Germany is Berlin."
+      },
+      {
+        "title": "Berlin",
+        "text": "Berlin is located on the Spree river."
+      }
+    ]
+  },
+  {
+    "qid": "hp45",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Madrid?",
+    "gold_answer": "Manzanares",
+    "context": [
+      {
+        "title": "Madrid",
+        "text": "Madrid is the capital city of Spain."
+      },
+      {
+        "title": "Spain",
+        "text": "The capital Madrid lies on the Manzanares river."
+      }
+    ]
+  },
+  {
+    "qid": "hp46",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Ada Lovelace was born?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "Ada Lovelace",
+        "text": "Ada Lovelace was born in London."
+      },
+      {
+        "title": "London",
+        "text": "London is crossed by the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp47",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of Spain?",
+    "gold_answer": "Manzanares",
+    "context": [
+      {
+        "title": "Spain",
+        "text": "The capital of Spain is Madrid."
+      },
+      {
+        "title": "Madrid",
+        "text": "Madrid is located on the Manzanares river."
+      }
+    ]
+  },
+  {
+    "qid": "hp48",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Rome?",
+    "gold_answer": "Tiber",
+    "context": [
+      {
+        "title": "Rome",
+        "text": "Rome is the capital city of Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "The capital Rome lies on the Tiber river."
+      }
+    ]
+  },
+  {
+    "qid": "hp49",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Isaac Newton was born?",
+    "gold_answer": "Witham",
+    "context": [
+      {
+        "title": "Isaac Newton",
+        "text": "Isaac Newton was born in Woolsthorpe."
+      },
+      {
+        "title": "Woolsthorpe",
+        "text": "Woolsthorpe is crossed by the Witham river."
+      }
+    ]
+  },
+  {
+    "qid": "hp50",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of Spain?",
+    "gold_answer": "Manzanares",
+    "context": [
+      {
+        "title": "Spain",
+        "text": "The capital of Spain is Madrid."
+      },
+      {
+        "title": "Madrid",
+        "text": "Madrid is located on the Manzanares river."
+      }
+    ]
+  },
+  {
+    "qid": "hp51",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Rome?",
+    "gold_answer": "Tiber",
+    "context": [
+      {
+        "title": "Rome",
+        "text": "Rome is the capital city of Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "The capital Rome lies on the Tiber river."
+      }
+    ]
+  },
+  {
+    "qid": "hp52",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Isaac Newton was born?",
+    "gold_answer": "Witham",
+    "context": [
+      {
+        "title": "Isaac Newton",
+        "text": "Isaac Newton was born in Woolsthorpe."
+      },
+      {
+        "title": "Woolsthorpe",
+        "text": "Woolsthorpe is crossed by the Witham river."
+      }
+    ]
+  },
+  {
+    "qid": "hp53",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of France?",
+    "gold_answer": "Seine",
+    "context": [
+      {
+        "title": "France",
+        "text": "The capital of France is Paris."
+      },
+      {
+        "title": "Paris",
+        "text": "Paris is located on the Seine river."
+      }
+    ]
+  },
+  {
+    "qid": "hp54",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Rome?",
+    "gold_answer": "Tiber",
+    "context": [
+      {
+        "title": "Rome",
+        "text": "Rome is the capital city of Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "The capital Rome lies on the Tiber river."
+      }
+    ]
+  },
+  {
+    "qid": "hp55",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Isaac Newton was born?",
+    "gold_answer": "Witham",
+    "context": [
+      {
+        "title": "Isaac Newton",
+        "text": "Isaac Newton was born in Woolsthorpe."
+      },
+      {
+        "title": "Woolsthorpe",
+        "text": "Woolsthorpe is crossed by the Witham river."
+      }
+    ]
+  },
+  {
+    "qid": "hp56",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of UK?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "UK",
+        "text": "The capital of UK is London."
+      },
+      {
+        "title": "London",
+        "text": "London is located on the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp57",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Rome?",
+    "gold_answer": "Tiber",
+    "context": [
+      {
+        "title": "Rome",
+        "text": "Rome is the capital city of Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "The capital Rome lies on the Tiber river."
+      }
+    ]
+  },
+  {
+    "qid": "hp58",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Marie Curie was born?",
+    "gold_answer": "Vistula",
+    "context": [
+      {
+        "title": "Marie Curie",
+        "text": "Marie Curie was born in Warsaw."
+      },
+      {
+        "title": "Warsaw",
+        "text": "Warsaw is crossed by the Vistula river."
+      }
+    ]
+  },
+  {
+    "qid": "hp59",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of Spain?",
+    "gold_answer": "Manzanares",
+    "context": [
+      {
+        "title": "Spain",
+        "text": "The capital of Spain is Madrid."
+      },
+      {
+        "title": "Madrid",
+        "text": "Madrid is located on the Manzanares river."
+      }
+    ]
+  },
+  {
+    "qid": "hp60",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Madrid?",
+    "gold_answer": "Manzanares",
+    "context": [
+      {
+        "title": "Madrid",
+        "text": "Madrid is the capital city of Spain."
+      },
+      {
+        "title": "Spain",
+        "text": "The capital Madrid lies on the Manzanares river."
+      }
+    ]
+  },
+  {
+    "qid": "hp61",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Ada Lovelace was born?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "Ada Lovelace",
+        "text": "Ada Lovelace was born in London."
+      },
+      {
+        "title": "London",
+        "text": "London is crossed by the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp62",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of Germany?",
+    "gold_answer": "Spree",
+    "context": [
+      {
+        "title": "Germany",
+        "text": "The capital of Germany is Berlin."
+      },
+      {
+        "title": "Berlin",
+        "text": "Berlin is located on the Spree river."
+      }
+    ]
+  },
+  {
+    "qid": "hp63",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is London?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "London",
+        "text": "London is the capital city of UK."
+      },
+      {
+        "title": "UK",
+        "text": "The capital London lies on the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp64",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Albert Einstein was born?",
+    "gold_answer": "Danube",
+    "context": [
+      {
+        "title": "Albert Einstein",
+        "text": "Albert Einstein was born in Ulm."
+      },
+      {
+        "title": "Ulm",
+        "text": "Ulm is crossed by the Danube river."
+      }
+    ]
+  },
+  {
+    "qid": "hp65",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of UK?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "UK",
+        "text": "The capital of UK is London."
+      },
+      {
+        "title": "London",
+        "text": "London is located on the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp66",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Rome?",
+    "gold_answer": "Tiber",
+    "context": [
+      {
+        "title": "Rome",
+        "text": "Rome is the capital city of Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "The capital Rome lies on the Tiber river."
+      }
+    ]
+  },
+  {
+    "qid": "hp67",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Nikola Tesla was born?",
+    "gold_answer": "Lika",
+    "context": [
+      {
+        "title": "Nikola Tesla",
+        "text": "Nikola Tesla was born in Smiljan."
+      },
+      {
+        "title": "Smiljan",
+        "text": "Smiljan is crossed by the Lika river."
+      }
+    ]
+  },
+  {
+    "qid": "hp68",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of France?",
+    "gold_answer": "Seine",
+    "context": [
+      {
+        "title": "France",
+        "text": "The capital of France is Paris."
+      },
+      {
+        "title": "Paris",
+        "text": "Paris is located on the Seine river."
+      }
+    ]
+  },
+  {
+    "qid": "hp69",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Paris?",
+    "gold_answer": "Seine",
+    "context": [
+      {
+        "title": "Paris",
+        "text": "Paris is the capital city of France."
+      },
+      {
+        "title": "France",
+        "text": "The capital Paris lies on the Seine river."
+      }
+    ]
+  },
+  {
+    "qid": "hp70",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Albert Einstein was born?",
+    "gold_answer": "Danube",
+    "context": [
+      {
+        "title": "Albert Einstein",
+        "text": "Albert Einstein was born in Ulm."
+      },
+      {
+        "title": "Ulm",
+        "text": "Ulm is crossed by the Danube river."
+      }
+    ]
+  },
+  {
+    "qid": "hp71",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of Germany?",
+    "gold_answer": "Spree",
+    "context": [
+      {
+        "title": "Germany",
+        "text": "The capital of Germany is Berlin."
+      },
+      {
+        "title": "Berlin",
+        "text": "Berlin is located on the Spree river."
+      }
+    ]
+  },
+  {
+    "qid": "hp72",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Berlin?",
+    "gold_answer": "Spree",
+    "context": [
+      {
+        "title": "Berlin",
+        "text": "Berlin is the capital city of Germany."
+      },
+      {
+        "title": "Germany",
+        "text": "The capital Berlin lies on the Spree river."
+      }
+    ]
+  },
+  {
+    "qid": "hp73",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Ada Lovelace was born?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "Ada Lovelace",
+        "text": "Ada Lovelace was born in London."
+      },
+      {
+        "title": "London",
+        "text": "London is crossed by the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp74",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of Italy?",
+    "gold_answer": "Tiber",
+    "context": [
+      {
+        "title": "Italy",
+        "text": "The capital of Italy is Rome."
+      },
+      {
+        "title": "Rome",
+        "text": "Rome is located on the Tiber river."
+      }
+    ]
+  },
+  {
+    "qid": "hp75",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is London?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "London",
+        "text": "London is the capital city of UK."
+      },
+      {
+        "title": "UK",
+        "text": "The capital London lies on the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp76",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Nikola Tesla was born?",
+    "gold_answer": "Lika",
+    "context": [
+      {
+        "title": "Nikola Tesla",
+        "text": "Nikola Tesla was born in Smiljan."
+      },
+      {
+        "title": "Smiljan",
+        "text": "Smiljan is crossed by the Lika river."
+      }
+    ]
+  },
+  {
+    "qid": "hp77",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of France?",
+    "gold_answer": "Seine",
+    "context": [
+      {
+        "title": "France",
+        "text": "The capital of France is Paris."
+      },
+      {
+        "title": "Paris",
+        "text": "Paris is located on the Seine river."
+      }
+    ]
+  },
+  {
+    "qid": "hp78",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is London?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "London",
+        "text": "London is the capital city of UK."
+      },
+      {
+        "title": "UK",
+        "text": "The capital London lies on the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp79",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Ada Lovelace was born?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "Ada Lovelace",
+        "text": "Ada Lovelace was born in London."
+      },
+      {
+        "title": "London",
+        "text": "London is crossed by the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp80",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of UK?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "UK",
+        "text": "The capital of UK is London."
+      },
+      {
+        "title": "London",
+        "text": "London is located on the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp81",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Madrid?",
+    "gold_answer": "Manzanares",
+    "context": [
+      {
+        "title": "Madrid",
+        "text": "Madrid is the capital city of Spain."
+      },
+      {
+        "title": "Spain",
+        "text": "The capital Madrid lies on the Manzanares river."
+      }
+    ]
+  },
+  {
+    "qid": "hp82",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Isaac Newton was born?",
+    "gold_answer": "Witham",
+    "context": [
+      {
+        "title": "Isaac Newton",
+        "text": "Isaac Newton was born in Woolsthorpe."
+      },
+      {
+        "title": "Woolsthorpe",
+        "text": "Woolsthorpe is crossed by the Witham river."
+      }
+    ]
+  },
+  {
+    "qid": "hp83",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of France?",
+    "gold_answer": "Seine",
+    "context": [
+      {
+        "title": "France",
+        "text": "The capital of France is Paris."
+      },
+      {
+        "title": "Paris",
+        "text": "Paris is located on the Seine river."
+      }
+    ]
+  },
+  {
+    "qid": "hp84",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Rome?",
+    "gold_answer": "Tiber",
+    "context": [
+      {
+        "title": "Rome",
+        "text": "Rome is the capital city of Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "The capital Rome lies on the Tiber river."
+      }
+    ]
+  },
+  {
+    "qid": "hp85",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Marie Curie was born?",
+    "gold_answer": "Vistula",
+    "context": [
+      {
+        "title": "Marie Curie",
+        "text": "Marie Curie was born in Warsaw."
+      },
+      {
+        "title": "Warsaw",
+        "text": "Warsaw is crossed by the Vistula river."
+      }
+    ]
+  },
+  {
+    "qid": "hp86",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of Germany?",
+    "gold_answer": "Spree",
+    "context": [
+      {
+        "title": "Germany",
+        "text": "The capital of Germany is Berlin."
+      },
+      {
+        "title": "Berlin",
+        "text": "Berlin is located on the Spree river."
+      }
+    ]
+  },
+  {
+    "qid": "hp87",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Madrid?",
+    "gold_answer": "Manzanares",
+    "context": [
+      {
+        "title": "Madrid",
+        "text": "Madrid is the capital city of Spain."
+      },
+      {
+        "title": "Spain",
+        "text": "The capital Madrid lies on the Manzanares river."
+      }
+    ]
+  },
+  {
+    "qid": "hp88",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Isaac Newton was born?",
+    "gold_answer": "Witham",
+    "context": [
+      {
+        "title": "Isaac Newton",
+        "text": "Isaac Newton was born in Woolsthorpe."
+      },
+      {
+        "title": "Woolsthorpe",
+        "text": "Woolsthorpe is crossed by the Witham river."
+      }
+    ]
+  },
+  {
+    "qid": "hp89",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of Italy?",
+    "gold_answer": "Tiber",
+    "context": [
+      {
+        "title": "Italy",
+        "text": "The capital of Italy is Rome."
+      },
+      {
+        "title": "Rome",
+        "text": "Rome is located on the Tiber river."
+      }
+    ]
+  },
+  {
+    "qid": "hp90",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is London?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "London",
+        "text": "London is the capital city of UK."
+      },
+      {
+        "title": "UK",
+        "text": "The capital London lies on the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp91",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Albert Einstein was born?",
+    "gold_answer": "Danube",
+    "context": [
+      {
+        "title": "Albert Einstein",
+        "text": "Albert Einstein was born in Ulm."
+      },
+      {
+        "title": "Ulm",
+        "text": "Ulm is crossed by the Danube river."
+      }
+    ]
+  },
+  {
+    "qid": "hp92",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of Spain?",
+    "gold_answer": "Manzanares",
+    "context": [
+      {
+        "title": "Spain",
+        "text": "The capital of Spain is Madrid."
+      },
+      {
+        "title": "Madrid",
+        "text": "Madrid is located on the Manzanares river."
+      }
+    ]
+  },
+  {
+    "qid": "hp93",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is London?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "London",
+        "text": "London is the capital city of UK."
+      },
+      {
+        "title": "UK",
+        "text": "The capital London lies on the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp94",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Marie Curie was born?",
+    "gold_answer": "Vistula",
+    "context": [
+      {
+        "title": "Marie Curie",
+        "text": "Marie Curie was born in Warsaw."
+      },
+      {
+        "title": "Warsaw",
+        "text": "Warsaw is crossed by the Vistula river."
+      }
+    ]
+  },
+  {
+    "qid": "hp95",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of UK?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "UK",
+        "text": "The capital of UK is London."
+      },
+      {
+        "title": "London",
+        "text": "London is located on the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp96",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is London?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "London",
+        "text": "London is the capital city of UK."
+      },
+      {
+        "title": "UK",
+        "text": "The capital London lies on the Thames river."
+      }
+    ]
+  },
+  {
+    "qid": "hp97",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Isaac Newton was born?",
+    "gold_answer": "Witham",
+    "context": [
+      {
+        "title": "Isaac Newton",
+        "text": "Isaac Newton was born in Woolsthorpe."
+      },
+      {
+        "title": "Woolsthorpe",
+        "text": "Woolsthorpe is crossed by the Witham river."
+      }
+    ]
+  },
+  {
+    "qid": "hp98",
+    "difficulty": "medium",
+    "question": "What river flows through the capital of Italy?",
+    "gold_answer": "Tiber",
+    "context": [
+      {
+        "title": "Italy",
+        "text": "The capital of Italy is Rome."
+      },
+      {
+        "title": "Rome",
+        "text": "Rome is located on the Tiber river."
+      }
+    ]
+  },
+  {
+    "qid": "hp99",
+    "difficulty": "hard",
+    "question": "What river flows through the capital city of the country whose capital is Rome?",
+    "gold_answer": "Tiber",
+    "context": [
+      {
+        "title": "Rome",
+        "text": "Rome is the capital city of Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "The capital Rome lies on the Tiber river."
+      }
+    ]
+  },
+  {
+    "qid": "hp100",
+    "difficulty": "easy",
+    "question": "What river flows through the city where Ada Lovelace was born?",
+    "gold_answer": "Thames",
+    "context": [
+      {
+        "title": "Ada Lovelace",
+        "text": "Ada Lovelace was born in London."
+      },
+      {
+        "title": "London",
+        "text": "London is crossed by the Thames river."
+      }
+    ]
+  }
+]
