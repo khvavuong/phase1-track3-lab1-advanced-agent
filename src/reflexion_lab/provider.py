@@ -16,7 +16,7 @@ class LLMResponse:
 class OpenAIProvider:
     def __init__(
         self,
-        model: str = "gpt-4o-mini",
+        model: str,
         api_key: str | None = None,
     ) -> None:
         try:

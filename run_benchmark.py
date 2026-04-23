@@ -22,7 +22,7 @@ def main(
         raise typer.BadParameter("Run with --real true to execute real OpenAI calls.")
 
     examples = load_dataset(dataset)
-    selected_model = model.strip() or os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+    selected_model = model.strip() or os.getenv("OPENAI_MODEL")
     provider = OpenAIProvider(model=selected_model)
     react = ReActAgent(provider=provider)
     reflexion = ReflexionAgent(max_attempts=reflexion_attempts, provider=provider)
