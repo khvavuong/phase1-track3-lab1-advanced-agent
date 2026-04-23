@@ -14,6 +14,9 @@ class BaseAgent:
     agent_type: Literal["react", "reflexion"]
     max_attempts: int = 1
     provider: OpenAIProvider = field(default_factory=OpenAIProvider)
+    enable_adaptive_max_attempts: bool = False
+    enable_memory_compression: bool = False
+    reflection_memory_max_items: int = 3
 
     def _actor_prompt(self, example: QAExample, reflection_memory: list[str]) -> str:
         reflection_block = "\n".join(f"- {item}" for item in reflection_memory) if reflection_memory else "- (none)"
@@ -120,6 +123,29 @@ class BaseAgent:
             return "incomplete_multi_hop"
         return "wrong_final_answer"
 
+    def _compute_effective_max_attempts(self, example: QAExample) -> int:
+        if self.agent_type != "reflexion" or not self.enable_adaptive_max_attempts:
+            return self.max_attempts
+        if example.difficulty == "hard":
+            return min(self.max_attempts + 1, 5)
+        if example.difficulty == "easy":
+            return max(2, self.max_attempts - 1)
+        return self.max_attempts
+
+    def _compress_reflection_memory(self, reflection_memory: list[str]) -> list[str]:
+        if not self.enable_memory_compression:
+            return reflection_memory
+        if len(reflection_memory) <= self.reflection_memory_max_items:
+            return reflection_memory
+
+        keep_recent = max(2, self.reflection_memory_max_items - 1)
+        older = reflection_memory[:-keep_recent]
+        recent = reflection_memory[-keep_recent:]
+        summary = "Compressed memory: " + " | ".join(
+            f"{idx + 1}) {item[:120]}" for idx, item in enumerate(older[-3:])
+        )
+        return [summary] + recent
+
     def run(self, example: QAExample) -> RunRecord:
         reflection_memory: list[str] = []
         reflections: list[ReflectionEntry] = []
@@ -127,19 +153,22 @@ class BaseAgent:
         final_answer = ""
         final_judge = JudgeResult(score=0, reason="No attempts executed.")
 
-        for attempt_id in range(1, self.max_attempts + 1):
+        effective_max_attempts = self._compute_effective_max_attempts(example)
+        previous_reasons: list[str] = []
+        for attempt_id in range(1, effective_max_attempts + 1):
             answer, actor_tokens, actor_latency = self._call_actor(example, reflection_memory)
             judge, eval_tokens, eval_latency = self._call_evaluator(example, answer)
             token_estimate = actor_tokens + eval_tokens
             latency_ms = actor_latency + eval_latency
 
             reflection_entry: ReflectionEntry | None = None
-            if self.agent_type == "reflexion" and judge.score == 0 and attempt_id < self.max_attempts:
+            if self.agent_type == "reflexion" and judge.score == 0 and attempt_id < effective_max_attempts:
                 reflection_entry, ref_tokens, ref_latency = self._call_reflector(
                     example, answer, judge, attempt_id
                 )
                 reflections.append(reflection_entry)
                 reflection_memory.append(reflection_entry.next_strategy)
+                reflection_memory = self._compress_reflection_memory(reflection_memory)
                 token_estimate += ref_tokens
                 latency_ms += ref_latency
 
@@ -155,6 +184,18 @@ class BaseAgent:
             traces.append(trace)
             final_answer = answer
             final_judge = judge
+            previous_reasons.append(judge.reason.strip().lower())
+
+            # Adaptive early-stop: if evaluator keeps returning the same failure reason,
+            # stop to avoid wasteful loops.
+            if (
+                self.agent_type == "reflexion"
+                and self.enable_adaptive_max_attempts
+                and len(previous_reasons) >= 2
+                and previous_reasons[-1]
+                and previous_reasons[-1] == previous_reasons[-2]
+            ):
+                break
             if judge.score == 1:
                 break
 
@@ -179,13 +220,29 @@ class BaseAgent:
 
 class ReActAgent(BaseAgent):
     def __init__(self, provider: OpenAIProvider | None = None) -> None:
-        super().__init__(agent_type="react", max_attempts=1, provider=provider or OpenAIProvider())
+        super().__init__(
+            agent_type="react",
+            max_attempts=1,
+            provider=provider or OpenAIProvider(),
+            enable_adaptive_max_attempts=False,
+            enable_memory_compression=False,
+        )
 
 
 class ReflexionAgent(BaseAgent):
-    def __init__(self, max_attempts: int = 3, provider: OpenAIProvider | None = None) -> None:
+    def __init__(
+        self,
+        max_attempts: int = 3,
+        provider: OpenAIProvider | None = None,
+        enable_adaptive_max_attempts: bool = True,
+        enable_memory_compression: bool = True,
+        reflection_memory_max_items: int = 3,
+    ) -> None:
         super().__init__(
             agent_type="reflexion",
             max_attempts=max_attempts,
             provider=provider or OpenAIProvider(),
+            enable_adaptive_max_attempts=enable_adaptive_max_attempts,
+            enable_memory_compression=enable_memory_compression,
+            reflection_memory_max_items=reflection_memory_max_items,
         )
