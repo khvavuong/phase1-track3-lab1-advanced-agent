@@ -2,7 +2,7 @@ from __future__ import annotations
 import json
 import re
 from pathlib import Path
-from typing import Iterable
+from typing import Any, Iterable
 from .schemas import QAExample, RunRecord
 
 def normalize_answer(text: str) -> str:
@@ -21,3 +21,28 @@ def save_jsonl(path: str | Path, records: Iterable[RunRecord]) -> None:
     with path.open("w", encoding="utf-8") as f:
         for record in records:
             f.write(record.model_dump_json() + "\n")
+            
+def _context_to_text(example: QAExample) -> str:
+    return "\n".join(f"- {chunk.title}: {chunk.text}" for chunk in example.context)
+
+
+def _extract_json_object(text: str) -> dict[str, Any]:
+    raw = text.strip()
+    if raw.startswith("```"):
+        lines = raw.splitlines()
+        if len(lines) >= 3:
+            raw = "\n".join(lines[1:-1]).strip()
+    start = raw.find("{")
+    end = raw.rfind("}")
+    if start == -1 or end == -1 or end <= start:
+        raise ValueError(f"No JSON object found in model output: {text}")
+    return json.loads(raw[start : end + 1])
+
+
+def _safe_int_score(value: Any) -> int:
+    if isinstance(value, bool):
+        return 1 if value else 0
+    if isinstance(value, (int, float)):
+        return 1 if int(value) == 1 else 0
+    if isinstance(value, str):
+        return 1 if value.strip() in {"1", "true", "True"} else 0
