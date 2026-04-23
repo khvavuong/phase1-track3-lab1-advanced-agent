@@ -46,3 +46,4 @@ def _safe_int_score(value: Any) -> int:
         return 1 if int(value) == 1 else 0
     if isinstance(value, str):
         return 1 if value.strip() in {"1", "true", "True"} else 0
+    return 0
