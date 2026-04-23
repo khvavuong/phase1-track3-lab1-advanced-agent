@@ -41,17 +41,29 @@ class OpenAIProvider:
     ) -> LLMResponse:
         del do_sample  # Sampling behavior is controlled by temperature/top_p in OpenAI models.
         started = time.perf_counter()
-        response = self._client.responses.create(
-            model=self.model,
-            input=prompt,
-            max_output_tokens=max_new_tokens,
-            temperature=temperature,
-            top_p=top_p,
-        )
-        latency_ms = int((time.perf_counter() - started) * 1000)
+        if self.model.startswith("gpt-3.5"):
+            response = self._client.chat.completions.create(
+                model=self.model,
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=max_new_tokens,
+                temperature=temperature,
+                top_p=top_p,
+            )
+            latency_ms = int((time.perf_counter() - started) * 1000)
+            text = (response.choices[0].message.content or "").strip()
+            token_estimate = int(getattr(response.usage, "total_tokens", 0) or 0)
+        else:
+            response = self._client.responses.create(
+                model=self.model,
+                input=prompt,
+                max_output_tokens=max_new_tokens,
+                temperature=temperature,
+                top_p=top_p,
+            )
+            latency_ms = int((time.perf_counter() - started) * 1000)
+            text = self._extract_text(response).strip()
+            token_estimate = int(getattr(getattr(response, "usage", None), "total_tokens", 0) or 0)
 
-        text = self._extract_text(response).strip()
-        token_estimate = int(getattr(getattr(response, "usage", None), "total_tokens", 0) or 0)
         if token_estimate <= 0:
             token_estimate = max(1, int((len(prompt) + len(text)) / 4))
         return LLMResponse(text=text, token_estimate=token_estimate, latency_ms=latency_ms)
